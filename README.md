@@ -10,10 +10,10 @@ openasar installer is an unofficial script that replaces discord’s app.asar wi
 
 ## usage
 1. clone this repository
-   `git clone https://github.com/ntarya/OpenAsar-Installer-Linux.git`
+   `git clone https://github.com/notaryagg/oainstaller.git`
 
 2. move into the cloned folder
-`cd OpenAsar-Installer-Linux`
+`cd oainstaller`
 
 3. make the script executable
 `chmod +x installer.sh`
