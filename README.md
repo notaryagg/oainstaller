@@ -1,34 +1,24 @@
-# 🎉 OpenAsar Installer
+# openasar installer
 
-## 🚀 Overview
+## overview
+openasar installer is an unofficial script that replaces discord’s app.asar with openasar’s app.asar.
 
-Welcome to the **OpenAsar Installer**, An unofficial script that replaces Discord's app.asar with OpenAsar's app.asar.
+## requirements
+- root privileges: run this script as root (use sudo)
+- bash: make sure you’re using a bash environment
+- openasar’s app.asar: download it from https://openasar.dev/
 
-## 🛠️ Requirements
+## usage
+1. clone this repository
+   git clone https://github.com/ntarya/OpenAsar-Installer-Linux.git
 
-- **Root Privileges**: You need to run this script as root. (Use `sudo`)
-- **Bash**: Make sure you're in a Bash environment.
-- **OpenAsar's app.asar**: Download from https://openasar.dev/
+2. move into the cloned folder
+   cd OpenAsar-Installer-Linux
 
-## 📜 Usage
-## 1- Clone this repository
-```bash
-git clone https://github.com/ntarya/OpenAsar-Installer-Linux.git
-```
+3. make the script executable
+   chmod +x installer.sh
 
-## 2- Go to the cloned folder
-```bash
-cd OpenAsar-Installer-Linux
-```
+4. run the script with sudo
+   sudo ./installer.sh /path/to/openasar/app.asar
 
-## 3- Allow the script to run as executable
-```bash
-chmod +x installer.sh
-```
-
-## 4- Run the script with sudo
-```bash
-sudo ./installer.sh /path/to/your/downloaded/openasar/app.asar
-```
-
-# Make sure to restart your Discord client after installing (If it's open)
+restart discord after installing if it’s open.
